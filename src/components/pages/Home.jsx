@@ -6,20 +6,20 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [users, setUser] = useState([]);
 
-  const [ldta ,setLdta] = useState({})
-    const {id,email,username,password} =ldta
-    
-   console.log(username);
-   const localdata = ()=> {  
-   const locad = localStorage.getItem("userdata")
-      setLdta(JSON.parse(locad))
-   }
-  
-  
+
+
+
+
+  // const localdata = () => {
+  //   const locad = localStorage.getItem("userdata")
+
+  // }
+
+
 
   useEffect(() => {
     loadUsers();
-    localdata()
+
   }, []);
 
   const loadUsers = async () => {
@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Home Page {username}</h1>
+
         <table class="table border shadow">
           <thead class="thead-dark">
             <tr>
@@ -43,7 +43,7 @@ const Home = () => {
               <th scope="col">Name</th>
               <th scope="col">User Name</th>
               <th scope="col">Email</th>
-               <th scope="col">phone</th>
+              <th scope="col">phone</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -57,7 +57,7 @@ const Home = () => {
                 <td>{user.phone}</td>
                 <td>
                   <Link class="btn-sm btn-primary mr-2" to={`/users/${user.id}`}>
-                   <i className="fa fa-eye"></i>
+                    <i className="fa fa-eye"></i>
                   </Link>
                   <Link
                     class="btn-sm btn-success mr-2"
@@ -69,7 +69,7 @@ const Home = () => {
                     class="btn-sm btn-danger "
                     onClick={() => deleteUser(user.id)}
                   >
-                   <i class="fa fa-trash" aria-hidden="true"></i>
+                    <i class="fa fa-trash" aria-hidden="true"></i>
                   </Link>
                 </td>
               </tr>

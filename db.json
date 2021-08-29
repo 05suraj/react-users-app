@@ -2,7 +2,7 @@
   "users": [
     {
       "name": "SURAJ ",
-      "username": "suraj123",
+      "username": "suraj12365757",
       "email": "suraj@gmil.com",
       "phone": "8853446231",
       "id": 1
@@ -15,14 +15,14 @@
       "id": 2
     },
     {
-      "name": "ajay",
+      "name": "Suraj Kumar",
       "username": "ajay123",
       "email": "ajay@gmail.com",
       "phone": "88345265535",
       "id": 3
     },
     {
-      "name": "vivek",
+      "name": "vivek 45567",
       "username": "kumar12234",
       "email": "kumar@gmail.com",
       "phone": "787283647787",
@@ -209,6 +209,12 @@
       "username": "accurate",
       "email": "acurate@gmail.com",
       "password": "1dhdhgfhfh"
+    },
+    {
+      "id": "1630226886260",
+      "username": "dd",
+      "email": "ddgfgg@gmail.com",
+      "password": "ssssss"
     }
   ]
 }
