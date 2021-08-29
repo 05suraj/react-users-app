@@ -8,6 +8,8 @@ function gitnew() {
     add(5, 6)
     
     let a = "suraj";
+    let h = "kumar";
+
 
 
     return (
